@@ -2037,7 +2037,7 @@ h6 {
 .icon-zalo {
 	position: relative;
 	top: 10px;
-    background: url('/imgThumb/zalo.png');
+    background: url("../imgThumb/zalo.png");
 	width: 14px;
     height: 14px;
     display: block;
