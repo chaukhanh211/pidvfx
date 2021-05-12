@@ -148,7 +148,7 @@ h6 {
 }
 
 .navbar {
-	padding: 14px 0px;
+	padding: 0;
 	width: 100%;
 	border-radius: 0px;
 	z-index: 999;
@@ -156,6 +156,15 @@ h6 {
 	transition: all 0.5s ease-in-out;
 	background-color: transparent
 }
+
+
+.size-logo {
+	width: 116px;
+    height: 80px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
 
 .navbar .logo .logo-dark {
 	display: none
