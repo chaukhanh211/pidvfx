@@ -36,6 +36,11 @@ $(document).ready(
 const app = {
     videos : [
         {
+          name: "[한화그룹 디지털 광고] 지속가능한 친환경기술-탄소 줄이는 기술",
+          path: '<iframe width="830" height="500" src="https://www.youtube.com/embed/sYlwC4OHymU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+          image: "imgThumb/mq1.jpg"
+        },
+        {
           name: "WAVVE 24시",
           path: '<iframe class= "responsive-iframe" width="830" height="500" src="https://www.youtube.com/embed/ncmK-LsrRJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
           image: "imgThumb/WAVVE.jpg"
