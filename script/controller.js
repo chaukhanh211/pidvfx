@@ -1,7 +1,7 @@
 $(document).ready(
     function(){
         $('#thumbnail_slider').slick({
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 1,
         dots: true,
         centerMode: true,
