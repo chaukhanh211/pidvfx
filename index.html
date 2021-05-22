@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Pixel</title>
+    <title>PID VFX</title>
     <!-- favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="shortcut icon" href="images/logo-drak.ico" />
 
     <!-- css -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="20">
@@ -32,95 +33,159 @@
         </div>
     </div>
     <!--Navbar Start-->
-    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
-        <div class="container">
-            <!-- LOGO -->
-            <a class="navbar-brand logo" href="#">
-                <img src="images/logo-dark.png" alt="" class="logo-dark" height="28" />
-                <img src="images/logo-light.png" alt="" class="logo-light" height="28" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="" data-feather="menu"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ms-auto navbar-center" id="navbar-navlist">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link active">Giới Thiệu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#products" class="nav-link">Sản Phẩm</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://www.facebook.com/cheobeo61" class="nav-link" title="Facebook">
-                            <i class="fa fa-facebook-official"  aria-hidden="true"></i>
-                        </a>
-                        <a href="#" class="nav-link" title="Email">
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                        </a>
-                        <a href="#" class="nav-link" title="Linked">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                        <a href="#" class="nav-link" title="Zalo">
-                            <i class="icon-zalo" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                </ul>
-                <!-- <a href="" class="btn btn-sm rounded-pill nav-btn ms-lg-3">Buy Now</a> -->
+   
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+            <div class="container">
+                <!-- LOGO -->
+                <a class="navbar-brand logo p-0" href="#">
+                    <img src="images/logo-drak.png" alt="" class="logo-dark size-logo" height="40" />
+                    <img src="images/logo-white.png" alt="" class="logo-light size-logo" height="40" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="" data-feather="menu"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto navbar-center" id="navbar-navlist">
+                        <!-- <li class="nav-item">
+                            <a href="#home" class="nav-link active">Giới Thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#video-column" class="nav-link">Sản Phẩm</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/pidvfx/" target="_blank" class="nav-link" title="Facebook">
+                                <i class="fa fa-facebook-official"  aria-hidden="true"></i>
+                            </a>
+                            <a href="mailto:pidvfx@gmail.com" target="_blank" class="nav-link" title="Email">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="nav-link" target="_blank" title="Linked">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="nav-link" target="_blank" title="Zalo">
+                                <i class="icon-zalo" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <!-- end container -->
-    </nav>
+            <!-- end container -->
+        </nav>
+   
+   
     <!-- Navbar End -->
  
     <!-- Hero Start -->
-    <section class="hero-8 bg-center position-relative" id="home">
-        <div class="bg-overlay bg-dark">
-            <div class="coverVideo ">
-                <video class="contentVideo" loop muted autoplay poster="">
-                          <source src="././Timelapse/video1.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div>
-        <div class="container" id="text-container">
-            <div class="row justify-content-center hero-content">
-                <div class="col-lg-9">
-                    <div class="text-center">
-                        <!-- <i class="text-white sw-1_5 icon-lg icon-spin mb-4" data-feather="star"></i> -->
-                        <h1 class="font-weight-semibold mb-4 text-white hero-8-title">THE PIXEL</h1>
-                        <p class="mb-5 text-white-70 w-lg-75 mx-auto">Nemo enim ipsam voluptatem quia voluptas sit aut
-                            aspernatur aut fugit sed quia consequuntur magni dolores ratione voluptatem nesciunt.</p>
-                    </div>
+    <section class="hero-8 bg-center position-relative"  id="home">
+        <div class="container" >
+            <div class="bg-overlay bg-dark">
+                <div class="coverVideo ">
+                    <video class="contentVideo background-fit" loop muted autoplay poster="">
+                            <source src="././Timelapse/video1.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Hero End -->
-    <!-- Slider -->
-    <section id="products" class="section bg-gradient-primary" style="padding: 0">
-        <div class="coverVideo ">
-            <video class="contentVideo" loop muted autoplay poster="">
-                      <source src="././Timelapse/video2.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="row row-slider">
-                <div id="wrap">
+            <div class="row row-slider p-2" style="margin: 100px 0 200px 0;">
+                <div id="wrap" style="z-index: 2;">
                     <ul id="thumbnail_slider">
                     </ul>
                 </div>
+            </div>
+
+            <div id="popup" class="popup-overlay" style="display: none; opacity: 1;">
+                <div class="popup-wrapper">
+                    <div class="popup">
+                    </div>
+                </div>
+            </div>
+
+            <div id="video-column">
+                <div class="d-flex justify-content-around">
+                    <div data-aos="fade-left" class="col-md-6 p-2 z-2 " >
+                        <img alt='<iframe  src="https://www.youtube.com/embed/sYlwC4OHymU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='./imgThumb/mq1.jpg' class="w-100 border-10">
+                        <div class="play-button"></div>
+                    </div>
+                    <div data-aos="fade-right" class="col-md-6 p-2 z-2 " >
+                        <img alt='<iframe 
+                        class= "responsive-iframe"  
+                        src="https://www.youtube.com/embed/ncmK-LsrRJY" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>' src='/imgThumb/WAVVE.jpg' class="w-100 border-10">
+                        <div class="play-button"></div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-around">
+                    <div data-aos="fade-up" class="col-md-6 p-2 z-2 " >
+                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/_8-XPTglbUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/tiger.jpg' class="w-100 border-10">
+                        <div class="play-button"></div>
+                    </div>
+                    <div data-aos="fade-down" class="col-md-6 p-2 z-2 " >
+                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/EsLCWt0A8ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/Huyen-thoai-RUNETERRA.jpg' class="w-100 border-10">
+                        <div class="play-button"></div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-around">
+                    <div data-aos="flip-left" class="col-md-6 p-2 z-2 " >
+                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/qQi_zn_zOJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/number1.jpg' class="w-100 border-10">
+                        <div class="play-button"></div>
+                    </div>
+                    <div data-aos="flip-left" class="col-md-6 p-2 z-2 " >
+                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/iAz5VOqRfNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/tuyetung.jpg' class="w-100 border-10">
+                        <div class="play-button"></div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-around">
+                    <div data-aos="flip-up" class="col-md-6 p-2 z-2 " >
+                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/YGcgghFRpoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/tvc-kr.jpg' class="w-100 border-10">
+                        <div class="play-button"></div>
+                    </div>
+                    <div data-aos="flip-down" class="col-md-6 p-2 z-2 " >
+                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/4iM9tVGSyrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/showreel.jpg' class="w-100 border-10">
+                        <div class="play-button"></div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-around">
+                    <div data-aos="zoom-in" class="col-md-6 p-2 z-2 " >
+                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/sK81mj_tFLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/Riggingtraining.jpg' class="w-100 border-10">
+                        <div class="play-button"></div>
+                    </div>
+                    <div data-aos="zoom-in-up" class="col-md-6 p-2 z-2 " >
+                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/ZZntlpXbLvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/animationtraining.jpg' class="w-100 border-10">
+                        <div class="play-button"></div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-around">
+                    <div data-aos="zoom-out-up" class="col-md-6 p-2 z-2 " >
+                        <img alt='<iframe  src="https://www.youtube.com/embed/cUQW2Kl6DrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/showreel2018.jpg' class="w-100 border-10">
+                        <div class="play-button"></div>
+                    </div>
+                    <div data-aos="zoom-in-left" class="col-md-6 p-2 z-2 " >
+                        <img alt='<iframe 
+                        class= "responsive-iframe"  
+                        src="https://www.youtube.com/embed/ncmK-LsrRJY" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>' src='/imgThumb/WAVVE.jpg' class="w-100 border-10">
+                        <div class="play-button"></div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+        
     </section>
 
-    <div id="popup" class="popup-overlay" style="display: none; opacity: 1;">
-        <div class="popup-wrapper">
-            <div class="popup">
-            </div>
-            </div>
-        </div>
-    </div>
-      
-    <!-- End Slider -->
+
+
     <!-- javascript -->
+    
     <script src="script/bootstrap.bundle.min.js"></script>
     <script src="script/smooth-scroll.polyfills.min.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
@@ -130,9 +195,15 @@
     <!-- App Js -->
     <script src="script/app.js"></script>
     <script type="text/javascript" src="script/jquery-1.11.0.min.js"></script>
+
     <script type="text/javascript" src="script/slick.min.js"></script>
     <script src="script/controller.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     
+  
 </body>
 
 </html>
