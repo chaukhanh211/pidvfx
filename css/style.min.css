@@ -1476,7 +1476,8 @@ h6 {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: linear-gradient(to top left, #56c6e6 0%, #2753ff 100%);
+	/* background: linear-gradient(to top left, #56c6e6 0%, #2753ff 100%); */
+	background: linear-gradient(to top left, #3a4346 0%, #a4add2 100%);
 	z-index: 9999999;
 	transition: all 0.4s;
 	visibility: visible;
@@ -1496,10 +1497,10 @@ h6 {
 }
 
 .spinner>div {
-	width: 16px;
-	height: 16px;
-	background-color: #fff;
-	border-radius: 100%;
+	width: 100%;
+	height: 100%;
+	/* background-color: #fff;
+	border-radius: 100%; */
 	display: inline-block;
 	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 	margin: 4px
@@ -2113,11 +2114,68 @@ div.play-button {
 	border: none;
   }
 
-  .border-10{
-	border: 10px solid #fdfafa;
+  .border-5{
+	border: 5px solid #fdfafa;
   }
 
   img {
 	  cursor: pointer;
   }
+  .margin {
+	  margin: 100px 0 200px 0;
+  }
 
+  .social-menu {
+	display: flex;
+	list-style-type: none;
+}
+ 
+.social-menu i {
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	font-size: 25px;
+	margin-right: 10px;
+	transition: all 0.2s ease-in-out;
+	display: flex;
+	justify-content: center;
+}
+
+.social-menu i:before {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+        font-weight: 400;
+}
+
+.social-menu a {
+	text-decoration: none;
+}
+.fa-facebook {
+	background:#3b5998
+} 
+
+.fa-linkedin {
+	background:#007bb6
+}
+
+.fa-envelope {
+	background:#f3ecec
+}
+
+.fa-instagram {
+	background:#3f729b
+}
+
+.fa-youtube {
+	background:#c4302b
+}
+.social-menu i:hover {
+	opacity: .7;
+	/* border-radius: 0; */
+}
+.fa-zalo {
+	background: url(https://netweb.vn/img/hotline/zalo.png) center center no-repeat;
+	background-size: contain;
+}

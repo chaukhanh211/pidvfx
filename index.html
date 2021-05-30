@@ -26,53 +26,50 @@
     <div id="preloader">
         <div id="status">
             <div class="spinner">
-                <div class="bounce1"></div>
+                <!-- <div class="bounce1"></div>
                 <div class="bounce2"></div>
-                <div class="bounce3"></div>
+                <div class="bounce3"></div> -->
+                <div>
+                    <img src="images/logo-drak.png" alt="" class="logo-dark size-logo" height="40" />
+                </div>
+               
             </div>
         </div>
     </div>
     <!--Navbar Start-->
-   
-        <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
-            <div class="container">
-                <!-- LOGO -->
-                <a class="navbar-brand logo p-0" href="#">
-                    <img src="images/logo-drak.png" alt="" class="logo-dark size-logo" height="40" />
-                    <img src="images/logo-white.png" alt="" class="logo-light size-logo" height="40" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="" data-feather="menu"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ms-auto navbar-center" id="navbar-navlist">
-                        <!-- <li class="nav-item">
-                            <a href="#home" class="nav-link active">Giới Thiệu</a>
+    <nav class="navbar navbar-expand-lg  fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand logo p-0" href="#">
+                <img src="images/logo-drak.png" alt="" class="logo-dark size-logo" height="40" />
+                <img src="images/logo-white.png" alt="" class="logo-light size-logo" height="40" />
+            </a>
+            <button id="btn-nav" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="" data-feather="menu"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto navbar-center social-menu" id="navbar-navlist">
+                    <!-- <li class="nav-item d-flex justify-content-around">
+                        <a href="https://www.facebook.com/pidvfx/" target="_blank" class="nav-link" title="Facebook">
+                            Zalo
+                        </a>
+                    </li> -->
+                        <li class="d-flex justify-content-end">
+                            <a href="https://www.facebook.com/pidvfx/" target="_blank" title="Facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://linkedin.com/" target="_blank" title="Linkein">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="mailto:pidvfx@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope"></i></a>
+                            <a href="https://www.youtube.com/playlist?list=PLViCAf6bqCZMjjjBc0-OQK4p8hCUIWAQT" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a>
+                            <a href="#" target="_blank" title="Zalo"><i class="fa-zalo"></i></a>
+                            <!-- <a href="https://linkedin.com/" target="_blank"><i class="fa fa-zalo animated infinite tada"></a> -->
                         </li>
-                        <li class="nav-item">
-                            <a href="#video-column" class="nav-link">Sản Phẩm</a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a href="https://www.facebook.com/pidvfx/" target="_blank" class="nav-link" title="Facebook">
-                                <i class="fa fa-facebook-official"  aria-hidden="true"></i>
-                            </a>
-                            <a href="mailto:pidvfx@gmail.com" target="_blank" class="nav-link" title="Email">
-                                <i class="fa fa-envelope" aria-hidden="true"></i>
-                            </a>
-                            <a href="#" class="nav-link" target="_blank" title="Linked">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                            <a href="#" class="nav-link" target="_blank" title="Zalo">
-                                <i class="icon-zalo" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                </ul>
             </div>
-            <!-- end container -->
-        </nav>
-   
+        </div>
+    </nav>
    
     <!-- Navbar End -->
  
@@ -86,7 +83,7 @@
                     </video>
                 </div>
             </div>
-            <div class="row row-slider p-2" style="margin: 100px 0 200px 0;">
+            <div class="row row-slider p-2 margin">
                 <div id="wrap" style="z-index: 2;">
                     <ul id="thumbnail_slider">
                     </ul>
@@ -103,7 +100,7 @@
             <div id="video-column">
                 <div class="d-flex justify-content-around">
                     <div data-aos="fade-left" class="col-md-6 p-2 z-2 " >
-                        <img alt='<iframe  src="https://www.youtube.com/embed/sYlwC4OHymU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='./imgThumb/mq1.jpg' class="w-100 border-10">
+                        <img alt='<iframe  src="https://www.youtube.com/embed/sYlwC4OHymU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='./imgThumb/mq1.jpg' class="w-100 border-5">
                         <div class="play-button"></div>
                     </div>
                     <div data-aos="fade-right" class="col-md-6 p-2 z-2 " >
@@ -112,58 +109,58 @@
                         src="https://www.youtube.com/embed/ncmK-LsrRJY" 
                         title="YouTube video player" frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                        </iframe>' src='imgThumb/WAVVE.jpg' class="w-100 border-10">
+                        </iframe>' src='imgThumb/WAVVE.jpg' class="w-100 border-5">
                         <div class="play-button"></div>
                     </div>
                 </div>
 
                 <div class="d-flex justify-content-around">
                     <div data-aos="fade-up" class="col-md-6 p-2 z-2 " >
-                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/_8-XPTglbUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/tiger.jpg' class="w-100 border-10">
+                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/_8-XPTglbUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/tiger.jpg' class="w-100 border-5">
                         <div class="play-button"></div>
                     </div>
                     <div data-aos="fade-down" class="col-md-6 p-2 z-2 " >
-                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/EsLCWt0A8ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/Huyen-thoai-RUNETERRA.jpg' class="w-100 border-10">
+                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/EsLCWt0A8ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/Huyen-thoai-RUNETERRA.jpg' class="w-100 border-5">
                         <div class="play-button"></div>
                     </div>
                 </div>
 
                 <div class="d-flex justify-content-around">
                     <div data-aos="flip-left" class="col-md-6 p-2 z-2 " >
-                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/qQi_zn_zOJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/number1.jpg' class="w-100 border-10">
+                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/qQi_zn_zOJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/number1.jpg' class="w-100 border-5">
                         <div class="play-button"></div>
                     </div>
                     <div data-aos="flip-left" class="col-md-6 p-2 z-2 " >
-                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/iAz5VOqRfNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/tuyetung.jpg' class="w-100 border-10">
+                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/iAz5VOqRfNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/tuyetung.jpg' class="w-100 border-5">
                         <div class="play-button"></div>
                     </div>
                 </div>
 
                 <div class="d-flex justify-content-around">
                     <div data-aos="flip-up" class="col-md-6 p-2 z-2 " >
-                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/YGcgghFRpoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/tvc-kr.jpg' class="w-100 border-10">
+                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/YGcgghFRpoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/tvc-kr.jpg' class="w-100 border-5">
                         <div class="play-button"></div>
                     </div>
                     <div data-aos="flip-down" class="col-md-6 p-2 z-2 " >
-                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/4iM9tVGSyrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/showreel.jpg' class="w-100 border-10">
+                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/4iM9tVGSyrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/showreel.jpg' class="w-100 border-5">
                         <div class="play-button"></div>
                     </div>
                 </div>
 
                 <div class="d-flex justify-content-around">
                     <div data-aos="zoom-in" class="col-md-6 p-2 z-2 " >
-                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/sK81mj_tFLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/Riggingtraining.jpg' class="w-100 border-10">
+                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/sK81mj_tFLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/Riggingtraining.jpg' class="w-100 border-5">
                         <div class="play-button"></div>
                     </div>
                     <div data-aos="zoom-in-up" class="col-md-6 p-2 z-2 " >
-                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/ZZntlpXbLvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/animationtraining.jpg' class="w-100 border-10">
+                        <img alt='<iframe class= "responsive-iframe"  src="https://www.youtube.com/embed/ZZntlpXbLvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/animationtraining.jpg' class="w-100 border-5">
                         <div class="play-button"></div>
                     </div>
                 </div>
 
                 <div class="d-flex justify-content-around">
                     <div data-aos="zoom-out-up" class="col-md-6 p-2 z-2 " >
-                        <img alt='<iframe  src="https://www.youtube.com/embed/cUQW2Kl6DrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/showreel2018.jpg' class="w-100 border-10">
+                        <img alt='<iframe  src="https://www.youtube.com/embed/cUQW2Kl6DrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' src='imgThumb/showreel2018.jpg' class="w-100 border-5">
                         <div class="play-button"></div>
                     </div>
                     <div data-aos="zoom-in-left" class="col-md-6 p-2 z-2 " >
@@ -172,7 +169,7 @@
                         src="https://www.youtube.com/embed/ncmK-LsrRJY" 
                         title="YouTube video player" frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                        </iframe>' src='imgThumb/WAVVE.jpg' class="w-100 border-10">
+                        </iframe>' src='imgThumb/WAVVE.jpg' class="w-100 border-5">
                         <div class="play-button"></div>
                     </div>
                 </div>

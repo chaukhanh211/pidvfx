@@ -36,11 +36,7 @@ $(document).ready(
 
 const app = {
     videos : [
-        {
-          name: "[한화그룹 디지털 광고] 지속가능한 친환경기술-탄소 줄이는 기술",
-          path: '<iframe  src="https://www.youtube.com/embed/sYlwC4OHymU" title="YouTube video player" class= "responsive-iframe " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-          image: "imgThumb/mq1.jpg"
-        },
+       
         {
           name: "WAVVE 24시",
           path: '<iframe class= "responsive-iframe "  src="https://www.youtube.com/embed/ncmK-LsrRJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
@@ -91,13 +87,18 @@ const app = {
           path: '<iframe  src="https://www.youtube.com/embed/cUQW2Kl6DrY" class= "responsive-iframe " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
           image: "imgThumb/showreel2018.jpg"
         },
+        {
+          name: "[한화그룹 디지털 광고] 지속가능한 친환경기술-탄소 줄이는 기술",
+          path: '<iframe  src="https://www.youtube.com/embed/sYlwC4OHymU" title="YouTube video player" class= "responsive-iframe " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+          image: "imgThumb/mq1.jpg"
+        },
         
     ],
     render: function() {
         const htmls = this.videos.map(video => {
             return `
             <li class="thumbnail-item p-2">
-              <img  class=" border-10 p-0" alt='${video.path}'  
+              <img  class=" border-5 p-0 h-100" alt='${video.path}'  
              src="${video.image}">
             </li>
             `

@@ -1,4 +1,4 @@
-@media (max-width: 736px) {
+@media (max-width: 768px) {
     .hero-8, .hero-9 {
         padding: 167px 0 0px;
     }
@@ -16,7 +16,7 @@
         bottom: 46px;
     }
     #thumbnail_slider {
-        height: 134px;
+        height: 100%;
         margin: 0 !important;
     }
     .slick-dots  {
@@ -46,6 +46,22 @@
         height: 134px;
       }
       .slick-track {
-        height: 134px;
+        height: 100%;
+      }
+      #btn-nav{
+          margin-right: 2rem;
+      }
+      *{
+          overflow-x: hidden;
+          box-sizing: border-box;
+      }
+      .navbar .container {
+          margin: 0;
+      }
+      .margin {
+        margin: 100px 0 100px 0;
+      }
+      nav .container {
+          width: 100% !important;
       }
 }
