@@ -40,7 +40,7 @@ const app = {
         {
           name: "WAVVE 24시",
           path: '<iframe class= "responsive-iframe "  src="https://www.youtube.com/embed/ncmK-LsrRJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-          image: "imgThumb/WAVVE.jpg"
+          image: "imgThumb/WAVVE.png"
         },
         {
           name: "Tiger remix",
