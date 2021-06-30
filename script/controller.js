@@ -39,57 +39,57 @@ const app = {
        
         {
           name: "WAVVE 24시",
-          path: '<iframe class= "responsive-iframe "  src="https://www.youtube.com/embed/ncmK-LsrRJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+          path: '<iframe  src="https://www.youtube.com/embed/ncmK-LsrRJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
           image: "imgThumb/WAVVE.PNG"
         },
         {
           name: "Tiger remix",
-          path: '<iframe class= "responsive-iframe "  src="https://www.youtube.com/embed/_8-XPTglbUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+          path: '<iframe  src="https://www.youtube.com/embed/_8-XPTglbUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
           image: "imgThumb/tiger.jpg"
         },
         {
           name: "Huyền Thoại RUNETERRA",
-          path: '<iframe class= "responsive-iframe "  src="https://www.youtube.com/embed/EsLCWt0A8ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+          path: '<iframe  src="https://www.youtube.com/embed/EsLCWt0A8ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
           image: "imgThumb/Huyen-thoai-RUNETERRA.jpg"
         },
         {
           name: "NƯỚC TĂNG LỰC NUMBER1 CHANH & DÂU",
-          path: '<iframe class= "responsive-iframe "  src="https://www.youtube.com/embed/qQi_zn_zOJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+          path: '<iframe  src="https://www.youtube.com/embed/qQi_zn_zOJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
           image: "imgThumb/number1.jpg"
         },
         {
           name: "Tuyết Ưng VNG",
-          path: '<iframe class= "responsive-iframe "  src="https://www.youtube.com/embed/iAz5VOqRfNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+          path: '<iframe  src="https://www.youtube.com/embed/iAz5VOqRfNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
           image: "imgThumb/tuyetung.jpg"
         },
         {
           name: "TVC KR",
-          path: '<iframe class= "responsive-iframe "  src="https://www.youtube.com/embed/YGcgghFRpoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+          path: '<iframe  src="https://www.youtube.com/embed/YGcgghFRpoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
           image: "imgThumb/tvc-kr.jpg"
         },
         {
           name: "showreel 2019 - 2020",
-          path: '<iframe class= "responsive-iframe "  src="https://www.youtube.com/embed/4iM9tVGSyrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+          path: '<iframe  src="https://www.youtube.com/embed/4iM9tVGSyrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
           image: "imgThumb/showreel.jpg"
         },
         {
           name: "Rigging Training",
-          path: '<iframe class= "responsive-iframe "  src="https://www.youtube.com/embed/sK81mj_tFLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+          path: '<iframe  src="https://www.youtube.com/embed/sK81mj_tFLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
           image: "imgThumb/Riggingtraining.jpg"
         },
         {
           name: "Animation Training",
-          path: '<iframe class= "responsive-iframe "  src="https://www.youtube.com/embed/ZZntlpXbLvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+          path: '<iframe  src="https://www.youtube.com/embed/ZZntlpXbLvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
           image: "imgThumb/animationtraining.jpg"
         },
         {
           name: "Showreel VFX 2018",
-          path: '<iframe  src="https://www.youtube.com/embed/cUQW2Kl6DrY" class= "responsive-iframe " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+          path: '<iframe  src="https://www.youtube.com/embed/cUQW2Kl6DrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
           image: "imgThumb/showreel2018.jpg"
         },
         {
           name: "[한화그룹 디지털 광고] 지속가능한 친환경기술-탄소 줄이는 기술",
-          path: '<iframe  src="https://www.youtube.com/embed/sYlwC4OHymU" title="YouTube video player" class= "responsive-iframe " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+          path: '<iframe  src="https://www.youtube.com/embed/sYlwC4OHymU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
           image: "imgThumb/mq1.jpg"
         },
         
@@ -118,27 +118,28 @@ const app = {
             </li>
             `
         })
+        
 
-        var videoColumn = "";
+        var videoColumn = [];
         var count = 0;
         this.videos.push(this.videos[0]);
         for (i = 0; i < this.videos.length/2; i++)
         {
-          videoColumn += `<div class="d-flex justify-content-around">
-                            <div data-aos="${this.effect[count]}" class="col-md-6 p-2 z-2 " >
-                                <img alt='${this.videos[count].path}' src='${this.videos[count].image}' class="w-100 border-5">
-                                <div class="play-button"></div>
-                            </div>
-                            <div data-aos="${this.effect[count + 1]}" class="col-md-6 p-2 z-2 " >
-                                <img alt='${this.videos[count + 1].path}' src='${this.videos[count + 1].image}' class="w-100 border-5">
-                                <div class="play-button"></div>
-                            </div>
-                          </div>`
+              videoColumn.push( `<div class="d-flex justify-content-around">
+              <div data-aos="${this.effect[count]}" class="col-md-6 p-2 z-2 " >
+                  <img alt='${this.videos[count].path}' src='${this.videos[count].image}' class="w-100 border-5">
+                  <div class="play-button"></div>
+              </div>
+              <div data-aos="${this.effect[count + 1]}" class="col-md-6 p-2 z-2 " >
+                  <img alt='${this.videos[count + 1].path}' src='${this.videos[count + 1].image}' class="w-100 border-5">
+                  <div class="play-button"></div>
+              </div>
+            </div>`)
             count = count + 2;
         }
-        
+       
         $('#thumbnail_slider').html(htmls)
-        $('#video-column').html(videoColumn)
+        // $('#video-column').html(videoColumn)
     },
     handleEvents: function() {
         $('.thumbnail-item').click(function() {
