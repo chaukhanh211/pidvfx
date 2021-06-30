@@ -93,6 +93,21 @@ const app = {
           image: "imgThumb/mq1.jpg"
         },
         
+        
+    ],
+    effect: [
+      "fade-left",
+      "fade-right",
+      "fade-up",
+      "fade-down",
+      "flip-left",
+      "flip-right",
+      "flip-up",
+      "flip-down",
+      "zoom-in",
+      "zoom-in-up",
+      "zoom-out-up",
+      "zoom-in-left",
     ],
     render: function() {
         const htmls = this.videos.map(video => {
@@ -104,19 +119,26 @@ const app = {
             `
         })
 
-      //   const videoColumn = this.videos.map(video => {
-      //     return `
-      //     <div data-aos="fade-right" class="col-md-6 p-2 z-2">
-      //     ${video.path}
-      //     </div>
-      //     <div data-aos="fade-left" class="col-md-6 p-2" >
-      //     ${video.path}
-      //     </div>
-      //     `
-      // })
+        var videoColumn = "";
+        var count = 0;
+        this.videos.push(this.videos[0]);
+        for (i = 0; i < this.videos.length/2; i++)
+        {
+          videoColumn += `<div class="d-flex justify-content-around">
+                            <div data-aos="${this.effect[count]}" class="col-md-6 p-2 z-2 " >
+                                <img alt='${this.videos[count].path}' src='${this.videos[count].image}' class="w-100 border-5">
+                                <div class="play-button"></div>
+                            </div>
+                            <div data-aos="${this.effect[count + 1]}" class="col-md-6 p-2 z-2 " >
+                                <img alt='${this.videos[count + 1].path}' src='${this.videos[count + 1].image}' class="w-100 border-5">
+                                <div class="play-button"></div>
+                            </div>
+                          </div>`
+            count = count + 2;
+        }
         
         $('#thumbnail_slider').html(htmls)
-        //$('#video-column').html(videoColumn)
+        $('#video-column').html(videoColumn)
     },
     handleEvents: function() {
         $('.thumbnail-item').click(function() {
