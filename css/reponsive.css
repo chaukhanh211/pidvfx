@@ -64,4 +64,13 @@
       nav .container {
           width: 100% !important;
       }
+
+      div.play-button {
+        width: 40px;
+        height: 28px;
+      }
+
+      .border-5 {
+        border: 0px solid #fdfafa !important;
+    }
 }

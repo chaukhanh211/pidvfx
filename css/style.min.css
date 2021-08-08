@@ -2190,3 +2190,12 @@ div.play-button {
 html {
 	scroll-behavior: smooth;
 }
+
+@font-face {
+	font-family: GoogleSans-Bold;
+	src: url(../fonts/GoogleSan/GoogleSans-Bold.ttf);
+}
+
+.GoogleSans-Bold {
+	font-family: GoogleSans-Bold;
+}
