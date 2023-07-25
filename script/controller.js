@@ -36,7 +36,11 @@ $(document).ready(
 
 const app = {
     videos : [
-       
+        {
+          name: "Showreel collection",
+          path: '<iframe src="https://www.youtube.com/embed/j0M6Ry5RxSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+          image: "imgThumb/showreel_collection.jpg"
+        },
         {
           name: "WAVVE 24시",
           path: '<iframe  src="https://www.youtube.com/embed/ncmK-LsrRJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
@@ -91,9 +95,7 @@ const app = {
           name: "[한화그룹 디지털 광고] 지속가능한 친환경기술-탄소 줄이는 기술",
           path: '<iframe  src="https://www.youtube.com/embed/sYlwC4OHymU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
           image: "imgThumb/mq1.jpg"
-        },
-        
-        
+        }
     ],
     effect: [
       "fade-left",
@@ -108,6 +110,7 @@ const app = {
       "zoom-in-up",
       "zoom-out-up",
       "zoom-in-left",
+      "fade-left"
     ],
     render: function() {
         const htmls = this.videos.map(video => {
@@ -120,23 +123,23 @@ const app = {
         })
         
 
-        var videoColumn = [];
-        var count = 0;
-        this.videos.push(this.videos[0]);
-        for (i = 0; i < this.videos.length/2; i++)
-        {
-              videoColumn.push( `<div class="d-flex justify-content-around">
-              <div data-aos="${this.effect[count]}" class="col-md-6 p-2 z-2 " >
-                  <img alt='${this.videos[count].path}' src='${this.videos[count].image}' class="w-100 border-5">
-                  <div class="play-button"></div>
-              </div>
-              <div data-aos="${this.effect[count + 1]}" class="col-md-6 p-2 z-2 " >
-                  <img alt='${this.videos[count + 1].path}' src='${this.videos[count + 1].image}' class="w-100 border-5">
-                  <div class="play-button"></div>
-              </div>
-            </div>`)
-            count = count + 2;
-        }
+        // var videoColumn = [];
+        // var count = 0;
+        // this.videos.push(this.videos[0]);
+        // for (i = 0; i < this.videos.length/2; i++)
+        // {
+        //       videoColumn.push( `<div class="d-flex justify-content-around">
+        //       <div data-aos="${this.effect[count]}" class="col-md-6 p-2 z-2 " >
+        //           <img alt='${this.videos[count].path}' src='${this.videos[count].image}' class="w-100 border-5">
+        //           <div class="play-button"></div>
+        //       </div>
+        //       <div data-aos="${this.effect[count + 1]}" class="col-md-6 p-2 z-2 " >
+        //           <img alt='${this.videos[count + 1].path}' src='${this.videos[count + 1].image}' class="w-100 border-5">
+        //           <div class="play-button"></div>
+        //       </div>
+        //     </div>`)
+        //     count = count + 2;
+        // }
        
         $('#thumbnail_slider').html(htmls)
         // $('#video-column').html(videoColumn)
