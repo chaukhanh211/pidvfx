@@ -150,8 +150,13 @@ const app = {
             $('#popup').css('display','block'); 
             $('.popup').html(value); 
             }
-
         );
+        $('#zalo').click(function() {
+          //var value = $(this).find('img').attr('alt');
+          $('#popup').css('display','block'); 
+          $('.popup').html("<img src='../imgThumb/qr-zalo.png'>"); 
+          }
+      );
         $('#popup').click(function() {
             $('#popup iframe').attr('src', $('iframe').attr('src'));
             $('#popup').css('display','none');
