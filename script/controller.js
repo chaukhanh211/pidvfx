@@ -39,7 +39,7 @@ const app = {
         {
           name: "Showreel collection",
           path: '<iframe src="https://www.youtube.com/embed/YvPtT6NkD9s?si=yrnKrQE_Ri0ao8YA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
-          image: "imgThumb/showreel_collection2.png"
+          image: "imgThumb/showreel_collection2.jpg"
         },
         {
           name: "WAVVE 24시",
