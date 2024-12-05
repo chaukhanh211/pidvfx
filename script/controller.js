@@ -38,8 +38,8 @@ const app = {
     videos : [
         {
           name: "Showreel collection",
-          path: '<iframe src="https://www.youtube.com/embed/j0M6Ry5RxSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-          image: "imgThumb/showreel_collection.jpg"
+          path: '<iframe src="https://www.youtube.com/embed/YvPtT6NkD9s?si=yrnKrQE_Ri0ao8YA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+          image: "imgThumb/showreel_collection1.png"
         },
         {
           name: "WAVVE 24시",

@@ -2098,7 +2098,7 @@ iframe {
 	margin-bottom: 100px;
 }
 
-div.play-button {
+/* div.play-button {
 	width: 68px;
 	height: 48px;
 	position: absolute;
@@ -2112,7 +2112,7 @@ div.play-button {
 	/* filter: grayscale(100%); */
 	transition: filter 0.1s cubic-bezier(0, 0, 0.2, 1);
 	border: none;
-  }
+  } */
 
   .border-5{
 	border: 5px solid #fdfafa;
